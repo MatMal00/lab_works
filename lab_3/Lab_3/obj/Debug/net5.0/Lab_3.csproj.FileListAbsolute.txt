@@ -1,0 +1,16 @@
+E:\STUDIA\C#\zadania\lab_3\Lab_3\bin\Debug\net5.0\Lab_3.exe
+E:\STUDIA\C#\zadania\lab_3\Lab_3\bin\Debug\net5.0\Lab_3.deps.json
+E:\STUDIA\C#\zadania\lab_3\Lab_3\bin\Debug\net5.0\Lab_3.runtimeconfig.json
+E:\STUDIA\C#\zadania\lab_3\Lab_3\bin\Debug\net5.0\Lab_3.runtimeconfig.dev.json
+E:\STUDIA\C#\zadania\lab_3\Lab_3\bin\Debug\net5.0\Lab_3.dll
+E:\STUDIA\C#\zadania\lab_3\Lab_3\bin\Debug\net5.0\ref\Lab_3.dll
+E:\STUDIA\C#\zadania\lab_3\Lab_3\bin\Debug\net5.0\Lab_3.pdb
+E:\STUDIA\C#\zadania\lab_3\Lab_3\obj\Debug\net5.0\Lab_3.csproj.AssemblyReference.cache
+E:\STUDIA\C#\zadania\lab_3\Lab_3\obj\Debug\net5.0\Lab_3.GeneratedMSBuildEditorConfig.editorconfig
+E:\STUDIA\C#\zadania\lab_3\Lab_3\obj\Debug\net5.0\Lab_3.AssemblyInfoInputs.cache
+E:\STUDIA\C#\zadania\lab_3\Lab_3\obj\Debug\net5.0\Lab_3.AssemblyInfo.cs
+E:\STUDIA\C#\zadania\lab_3\Lab_3\obj\Debug\net5.0\Lab_3.csproj.CoreCompileInputs.cache
+E:\STUDIA\C#\zadania\lab_3\Lab_3\obj\Debug\net5.0\Lab_3.dll
+E:\STUDIA\C#\zadania\lab_3\Lab_3\obj\Debug\net5.0\ref\Lab_3.dll
+E:\STUDIA\C#\zadania\lab_3\Lab_3\obj\Debug\net5.0\Lab_3.pdb
+E:\STUDIA\C#\zadania\lab_3\Lab_3\obj\Debug\net5.0\Lab_3.genruntimeconfig.cache

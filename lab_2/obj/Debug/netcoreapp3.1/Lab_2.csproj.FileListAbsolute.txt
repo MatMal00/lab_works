@@ -1,0 +1,14 @@
+D:\Users\Mateusz.Malec\source\repos\Lab_2\Lab_2\bin\Debug\netcoreapp3.1\Lab_2.exe
+D:\Users\Mateusz.Malec\source\repos\Lab_2\Lab_2\bin\Debug\netcoreapp3.1\Lab_2.deps.json
+D:\Users\Mateusz.Malec\source\repos\Lab_2\Lab_2\bin\Debug\netcoreapp3.1\Lab_2.runtimeconfig.json
+D:\Users\Mateusz.Malec\source\repos\Lab_2\Lab_2\bin\Debug\netcoreapp3.1\Lab_2.runtimeconfig.dev.json
+D:\Users\Mateusz.Malec\source\repos\Lab_2\Lab_2\bin\Debug\netcoreapp3.1\Lab_2.dll
+D:\Users\Mateusz.Malec\source\repos\Lab_2\Lab_2\bin\Debug\netcoreapp3.1\Lab_2.pdb
+D:\Users\Mateusz.Malec\source\repos\Lab_2\Lab_2\obj\Debug\netcoreapp3.1\Lab_2.csproj.AssemblyReference.cache
+D:\Users\Mateusz.Malec\source\repos\Lab_2\Lab_2\obj\Debug\netcoreapp3.1\Lab_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Mateusz.Malec\source\repos\Lab_2\Lab_2\obj\Debug\netcoreapp3.1\Lab_2.AssemblyInfoInputs.cache
+D:\Users\Mateusz.Malec\source\repos\Lab_2\Lab_2\obj\Debug\netcoreapp3.1\Lab_2.AssemblyInfo.cs
+D:\Users\Mateusz.Malec\source\repos\Lab_2\Lab_2\obj\Debug\netcoreapp3.1\Lab_2.csproj.CoreCompileInputs.cache
+D:\Users\Mateusz.Malec\source\repos\Lab_2\Lab_2\obj\Debug\netcoreapp3.1\Lab_2.dll
+D:\Users\Mateusz.Malec\source\repos\Lab_2\Lab_2\obj\Debug\netcoreapp3.1\Lab_2.pdb
+D:\Users\Mateusz.Malec\source\repos\Lab_2\Lab_2\obj\Debug\netcoreapp3.1\Lab_2.genruntimeconfig.cache

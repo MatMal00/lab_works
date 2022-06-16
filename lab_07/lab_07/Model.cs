@@ -14,7 +14,7 @@ namespace lab_07
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Post> Posts { get; set; }
         public DbSet<User> Users { get; set; }
-        public DbSet<Task> Tasks { get; set; }
+        public DbSet<TaskToDo> Tasks { get; set; }
         public DbSet<Role> Roles { get; set; }
 
 
@@ -55,7 +55,7 @@ namespace lab_07
         public long Id { get; set; }    
         public string Nickname { get; set; }
         public long RoleId { get; set; }
-        public List<Task> Tasks { get; } = new();
+        public List<TaskToDo> Tasks { get; } = new();
     }
 
     public class Role
@@ -64,7 +64,7 @@ namespace lab_07
         public string Name { get; set; }
     }
 
-    public class Task
+    public class TaskToDo
     {
         public long Id { get; set; }
         public string Title { get; set; }

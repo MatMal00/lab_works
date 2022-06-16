@@ -10,43 +10,38 @@ namespace lab_07
 
         public static void Main()
         {
-            using (BloggingContext db = new BloggingContext(connectionString))
-            {
-                Console.WriteLine($"Database ConnectionString: {db.ConnectionString}.");
+            //CREATE Roles
+            CreateRole("Admin").Wait();
+            CreateRole("Basic").Wait();
+            Console.WriteLine("Roles created\n");
 
-                //CREATE Roles
-                CreateRole("Admin").Wait();
-                CreateRole("Basic").Wait();
-                Console.WriteLine("Roles created\n");
+            //CREATE Users
+            CreateUser("MaciekAdmin", "Admin").Wait();
+            CreateUser("JanekBasic", "Basic").Wait();
+            Console.WriteLine("Users created\n");
 
-                //CREATE Users
-                CreateUser("MaciekAdmin", "Admin").Wait();
-                CreateUser("JanekBasic", "Basic").Wait();
-                Console.WriteLine("Users created\n");
+            //CREATE Tasks
+            CreateTask("JanekBasic", "Pranie", "Zrobić zaległe pranie").Wait();
+            CreateTask("JanekBasic", "Sprzątanie", "Wysprzątać dom").Wait();
+            CreateTask("MaciekAdmin", "Zadanie domowe", "Odrobić zadanie domowe").Wait();
+            Console.WriteLine("Tasks created\n");
 
-                //CREATE Tasks
-                CreateTask("JanekBasic", "Pranie", "Zrobić zaległe pranie").Wait();
-                CreateTask("JanekBasic", "Sprzątanie", "Wysprzątać dom").Wait();
-                CreateTask("MaciekAdmin", "Zadanie domowe", "Odrobić zadanie domowe").Wait();
-                Console.WriteLine("Tasks created\n");
+            //READ USER TASKS
+            Console.WriteLine("JanekBasic tasks:");
+            ReadTasks("JanekBasic").Wait();
+            Console.WriteLine("\n");
 
-                //READ USER TASKS
-                Console.WriteLine("JanekBasic tasks:");
-                ReadTasks("JanekBasic").Wait();
-                Console.WriteLine("\n");
+            //UPDATE ROLENAME
+            UpdateRolename("Admin", "Super Admin").Wait();
+            Console.WriteLine("Role updated\n");
 
-                //UPDATE ROLENAME
-                UpdateRolename("Admin", "Super Admin").Wait();
-                Console.WriteLine("Role updated\n");
+            //DELETE TASK   
+            ReadTasks().Wait();
+            Console.WriteLine("\n");
+            DeleteTask("Zadanie domowe").Wait();
 
-                //DELETE TASK   
-                ReadTasks().Wait();
-                Console.WriteLine("\n");
-                DeleteTask("Zadanie domowe").Wait();
-
-                ReadTasks().Wait();
-                Console.WriteLine("\n\n");
-            }
+            ReadTasks().Wait();
+            Console.WriteLine("\n\n");
         }
 
         public static async Task CreateRole(string roleName)
